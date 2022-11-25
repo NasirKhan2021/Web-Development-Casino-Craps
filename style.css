@@ -1,0 +1,57 @@
+
+*{
+    font-family: 'Playfair Display', serif;
+    background: #f8f8f8;
+}
+
+h1, footer{
+    text-align: center;
+}
+
+table{
+    position: relative;
+    margin: auto;
+}
+
+table td{
+    border: 1px solid green;
+    width: 50%;
+    height: 70px;
+    text-align: center;
+}
+
+button{
+    color:#fff;
+    font-size: 16px;
+    padding: 10px 35px;
+    margin: 5px;
+    border:none;
+    background-color: #4abaee;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #1ba81b;
+}
+
+button:active{
+    background-color: #095b2a;
+    color: #e2e2e2;
+}
+
+#wins{
+    color: #3957c3;
+}
+
+#losses{
+    color: #b7df27;
+}
+
+#wins, #losses, #total, #delta, #gamma{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#show{
+    font-size: 12px;
+}
